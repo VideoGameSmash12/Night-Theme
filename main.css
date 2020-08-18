@@ -136,9 +136,14 @@ span[style="color: #000000;"] {
 	display: block;
 }
 
-a.button:link, a.button:visited, a.button:active, .postbit_buttons > a:link, .postbit_buttons > a:visited, .postbit_buttons > a:active, button, input.button, .pagination a, textarea, #shoutbox input.text {
-	background: rgba(255, 255, 255, 3%);
+a.button:link, a.button:visited, a.button:active, .postbit_buttons > a:link, .postbit_buttons > a:visited, .postbit_buttons > a:active, button, input.button, .pagination a, textarea, #shoutbox input.text, input.textbox {
+	background: rgba(255, 255, 255, 4%);
     backdrop-filter: blur(10px);
+    border: none;
+}
+
+select {
+	background-color: rgba(255, 255, 255, 4%);
     border: none;
 }
 
