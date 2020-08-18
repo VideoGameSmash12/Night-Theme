@@ -159,3 +159,7 @@ a.button:hover, .postbit_buttons > a:hover, button:hover, input.button:hover, .p
 	background: rgba(255, 255, 255, 6%);
     border: none;
 }
+
+option {
+    background: #2b2b2b;
+}
