@@ -86,6 +86,10 @@ body {
     border-bottom: none;
 }
 
+.trow2.dashed {
+	border: 1px dashed #ccc;
+}
+
 .navigation {
 	border: none;
     background: rgba(255, 255, 255, 2%);
