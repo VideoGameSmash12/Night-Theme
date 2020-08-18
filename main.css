@@ -1,0 +1,121 @@
+/* Night Theme */
+/* i didn't actually intend to release this but people want it so here you go i guess */
+/* this will be updated often */
+
+body {
+	background: url("https://raw.githubusercontent.com/TotalFreedom/Website/master/images/conduct-bg.png");
+    background-attachment: fixed;
+}
+
+#content {
+	background: transparent;
+}
+
+#container {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+#logo {
+	background: transparent;
+	backdrop-filter: blur(5px);
+}
+
+#panel .upper {
+	background: rgba(255, 255, 255, 2%);
+    backdrop-filter: blur(10px);
+}
+
+#panel .lower {
+    background: transparent;
+    border-bottom: none;
+}
+
+.tcat {
+	background: rgba(255, 255, 255, 0.95%);
+}
+
+.thead.side, .thead, #shoutbox .head {
+	background: rgba(255, 255, 255, 2%);
+    padding: 0.8em 1.425em 0.8em 1.275em
+}
+
+#shoutbox {
+	backdrop-filter: blur(10px);
+    border: none;
+}
+
+.tborder {
+	background: transparent;
+    backdrop-filter: blur(10px);
+}
+
+.trow1 {
+    background: transparent;
+    border-bottom: none;
+}
+
+.trow2 {
+    background: transparent;
+	backdrop-filter: blur(10px);
+    border-bottom: none;
+}
+
+.navigation {
+	border: none;
+    background: rgba(255, 255, 255, 2%);
+    backdrop-filter: blur(10px);
+}
+
+#footer .uppermid {
+	background: transparent;
+    border-top: none;
+}
+
+#footer .lower {
+	background: transparent;
+}
+
+#footer {
+	backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.post {
+    background: transparent;
+	border: none;
+}
+
+.post .post_author div.author_statistics_default {
+	background: transparent;
+}
+
+blockquote {
+	background: rgba(255, 255, 255, 3%);
+    border: none;
+}
+
+.tfoot {
+	background: rgba(255, 255, 255, 1%);
+}
+
+.tyllist {
+	background: transparent;
+}
+
+span[style="color: #000000;"] {
+	color: white !important;
+}
+
+.post_edit {
+	display: block;
+}
+
+a.button:link, a.button:visited, a.button:active, .postbit_buttons > a:link, .postbit_buttons > a:visited, .postbit_buttons > a:active, button, input.button, .pagination a, textarea {
+	background: rgba(255, 255, 255, 3%);
+    backdrop-filter: blur(10px);
+    border: none;
+}
+
+a.button:hover, .postbit_buttons > a:hover, button:hover, input.button:hover, .pagination a:hover {
+	background: rgba(255, 255, 255, 10%);
+}
