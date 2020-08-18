@@ -2,6 +2,7 @@
 /* i didn't actually intend to release this but people want it so here you go i guess */
 /* this will be updated often */
 
+/* Credit goes to Fleek for this stuff */
 ::-webkit-scrollbar {
     background: transparent;
     width: 12px;
@@ -9,9 +10,23 @@
 
 ::-webkit-scrollbar-thumb {
     background: rgba(255, 255, 255, 10%);
+	/* This was commented out because rounded scrollbars didn't really fit in for me. If you want rounded corners, feel free to uncomment this out. ~Video */ 
     /*border-radius: 10px;*/
 }
 
+.onoffnew.onl {
+    background: green;
+}
+
+.onoffnew.off {
+    background: transparent;
+    height: 0px;
+    width: 0px;
+    border-radius: 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+/* Video's tomfuckery starts here */
 body {
 	background: url("https://raw.githubusercontent.com/TotalFreedom/Website/master/images/conduct-bg.png");
 	background-color: #000000;
