@@ -4,6 +4,7 @@
 
 body {
 	background: url("https://raw.githubusercontent.com/TotalFreedom/Website/master/images/conduct-bg.png");
+	background-color: #000000;
     background-attachment: fixed;
 }
 
@@ -118,4 +119,9 @@ a.button:link, a.button:visited, a.button:active, .postbit_buttons > a:link, .po
 
 a.button:hover, .postbit_buttons > a:hover, button:hover, input.button:hover, .pagination a:hover {
 	background: rgba(255, 255, 255, 10%);
+}
+
+.mpage a, .mpage a:link, .mpage a:visited, .mpage a:focus {
+	background: rgba(255, 255, 255, 6%);
+    border: none;
 }
