@@ -26,6 +26,20 @@
     margin: 0px 0px 0px 0px;
 }
 
+code {
+    color: #2b2b2b;
+}
+
+img.buddy_status {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
+option {
+    background: #2b2b2b;
+}
+
 /* Video's tomfuckery starts here */
 body {
 	background: url("https://raw.githubusercontent.com/TotalFreedom/Website/master/images/conduct-bg.png");
@@ -158,8 +172,4 @@ a.button:hover, .postbit_buttons > a:hover, button:hover, input.button:hover, .p
 .mpage a, .mpage a:link, .mpage a:visited, .mpage a:focus {
 	background: rgba(255, 255, 255, 6%);
     border: none;
-}
-
-option {
-    background: #2b2b2b;
 }
